@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" class="no-js">
+	<meta name="description" content="This is an appealing API for to allow searching mediawiki for any content. We made the API have the parameters to search all of mediawiki for anything you can think!">
+	<meta name="keywords" content="API, mediawiki, search">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="High Tech">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<title>Mediawiki API</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="jumbotron">
+		<h1 class="text-center">MediaWiki API</h1>
+		<h2 class="text-center">Search for anything!</h2>
+
+		<div class="wrapper">
+			<label id="search">Search: 
+				<input type="text" id="userSearch" name="search">
+				<button id="submit">Submit</button>
+			</label>
+		</div>
+
+
+	<div class="results">
+			
+	</div>
+</div>
+ 
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script><script>
+		 document.getElementById('submit').onsubmit = function() {
+       window.location = 'http://api.openweathermap.org/data/2.5/weather?' + document.getElementById('queryURL').value;
+         return false;
+		// $(document).ready(function() {
+		// 	$("#submit").on("click", function() {
+		// 		$("text").append(".results");
+		// 	});
+		// });
+	</script>    
+</body>
+</html>

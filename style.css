@@ -1,0 +1,39 @@
+input[name="search"] {
+	background: lightblue;
+	width: 10em;
+	max-height: 2em;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+#search {
+	font-size: 1.8em;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	padding-right: .2em;
+}
+
+#submit {
+	border: 2px solid black;
+	background: blue;
+	color: white;
+	border-radius: 10px;
+}
+
+#submit:hover {
+	padding: 10px;
+	font-size: 1em;
+	background: black;
+	color: royalblue;
+}
+
+h1 {
+	font-weight: bolder;
+	color: royalblue;
+}
+
+.jumbotron {
+	background: radial-gradient: (blue, lightblue, white, lightblue, blue);
+}
